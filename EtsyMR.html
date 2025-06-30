@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Points Relais Pro – Solution Mondial Relay pour Etsy</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Styles de base pour la landing page */
+    body { font-family: Arial, sans-serif; margin:0; padding:0; color:#333; }
+    header.hero { background:#fff9e9; text-align:center; padding:60px 20px; }
+    header.hero h1 { margin-bottom:20px; font-size:2.5em; }
+    header.hero p { margin-bottom:30px; font-size:1.2em; }
+    .btn-primary { display:inline-block; padding:15px 30px; background:#0073e6; color:#fff; text-decoration:none; border-radius:4px; cursor: not-allowed; opacity: 0.6; }
+    .btn-primary.disabled { pointer-events: none; }
+    section { padding:60px 20px; }
+    section#features .feature-list { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
+    section#features .feature { flex:1 1 250px; background:#fafafa; padding:20px; border-radius:4px; box-shadow:0 2px 5px rgba(0,0,0,0.1); text-align:center; }
+    section#how-it-works ol { max-width:600px; margin:0 auto; }
+    footer { background:#222; color:#eee; text-align:center; padding:20px; }
+    /* Image placeholders */
+    .hero-img { max-width:30%; height:auto; margin-bottom:40px; }
+    .feature-img { width:80px; height:80px; margin-bottom:15px; object-fit:cover; }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="hero">
+    <img src="./images/main.png" alt="Illustration de la solution pour vendeurs Etsy" class="hero-img">
+    <h1>Optimisez la gestion des points relais Mondial Relay sur Etsy</h1>
+    <p>Gestion simplifiée des envois en France, Belgique, Pays-Bas et Allemagne. Fini les e-mails manuels et les tickets d’expédition fastidieux.</p>
+    <!-- Bouton désactivé en attendant la disponibilité -->
+    <span class="btn-primary disabled">Bientôt disponible</span>
+  </header>
+
+  <!-- Fonctionnalités -->
+  <section id="features">
+    <h2>Fonctionnalités clés</h2>
+    <div class="feature-list">
+      <div class="feature">
+        <img src="./images/step_1.png" alt="Automatisation des e-mails" class="feature-img">
+        <h3>Automatisation des e-mails</h3>
+        <p>Envoi automatique d’un e-mail au client dès l’enregistrement d’une nouvelle commande sur Etsy.</p>
+      </div>
+      <div class="feature">
+        <img src="./images/step_2.png" alt="Sélection du point relais" class="feature-img">
+        <h3>Sélection du point relais</h3>
+        <p>Détection des livraisons standard et envoi d’un lien pour que le client choisisse son point relais Mondial Relay.</p>
+      </div>
+      <div class="feature">
+        <img src="./images/step_3.png" alt="Tableau de bord intuitif" class="feature-img">
+        <h3>Tableau de bord intuitif</h3>
+        <p>Notification par e-mail et suivi de l’état des sélections directement depuis le tableau de bord.</p>
+      </div>
+      <div class="feature">
+        <img src="./images/step_4.png" alt="Création de ticket Mondial Relay" class="feature-img">
+        <h3>Création de ticket Mondial Relay</h3>
+        <p>Génération automatique des tickets d’expédition via l’API Mondial Relay une fois la sélection validée.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comment ça marche -->
+  <section id="how-it-works">
+    <h2>Comment ça fonctionne ?</h2>
+    <ol>
+      <li><strong>Nouvelle commande</strong> – Analyse instantanée de chaque commande reçue sur la boutique Etsy.</li>
+      <li><strong>Envoi du lien relais</strong> – Envoi d’un lien au client pour sélectionner un point relais si le mode standard est choisi.</li>
+      <li><strong>Validation</strong> – Alerte immédiate lors du choix du point relais et mise à jour du statut dans le tableau de bord.</li>
+      <li><strong>Expédition</strong> – Création en un clic du ticket Mondial Relay, prêt à l’impression et à l’apposition sur le colis.</li>
+    </ol>
+  </section>
+
+  <!-- Appel à l'action -->
+  <section id="signup" style="text-align:center;">
+    <h2>Prêt à gagner du temps ?</h2>
+    <p>Essai gratuit de 14 jours, sans carte bancaire.</p>
+    <!-- Bouton désactivé -->
+    <span class="btn-primary disabled">Bientôt disponible</span>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Points Relais Pro – Tous droits réservés</p>
+    <p><a href="/contact" style="color:#eee;">Contact</a> | <a href="/privacy" style="color:#eee;">Politique de confidentialité</a></p>
+  </footer>
+
+</body>
+</html>
